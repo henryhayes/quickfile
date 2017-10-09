@@ -1,0 +1,21 @@
+{
+  "name": "Quickfile Api",
+  "description": "Quickfile Api Library",
+  "license": "MIT",
+  "keywords": ["quickfile"],
+  "authors": [
+    {
+      "name": "Henry Hayes",
+      "email": "henryhayes@gmail.com"
+    }
+  ],
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "4.0.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Quickfile\\Api\\": "src"
+    }
+  }
+}
