@@ -1,29 +1,11 @@
-# README #
+# Quickfile Api Library #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+This is a PHP 5.4+ library for version 1.2 of [Quickfile's API](https://api.quickfile.co.uk/).
 
-### What is this repository for? ###
+### Contribution ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+We are actively looking for contributors to help complete this.
 
-### How do I get set up? ###
+### Conventions ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+This is written with [PSR-4[(http://www.php-fig.org/psr/psr-4/) convention and will be subject to [Semantic Versioning](http://semver.org/)
