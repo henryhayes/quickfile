@@ -31,6 +31,9 @@ class Request
      */
     private $submission     = null;
 
+    /**
+     * Constructor
+     */
     public function __construct()
     {
         //
