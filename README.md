@@ -31,4 +31,4 @@ We are actively looking for contributors to help complete this.
 
 ### Conventions ###
 
-This is written with [PSR-4[(http://www.php-fig.org/psr/psr-4/) convention and will be subject to [Semantic Versioning](http://semver.org/)
+This is written with [PSR-4](http://www.php-fig.org/psr/psr-4/) convention and will be subject to [Semantic Versioning](http://semver.org/)
