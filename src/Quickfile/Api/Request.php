@@ -9,9 +9,20 @@ class Request
 {
     const ENDPOINT          = 'https://api.quickfile.co.uk/1_2';
 
-    private $appId          = 'a8915011-e592-458a-9080-c37abed7f013';
-    private $accountNumber  = '6131471985';
-    private $apiKey         = '96577D5E-CC10-49D1-9';
+    /**
+     * @var string
+     */
+    private $appId;
+
+    /**
+     * @var string
+     */
+    private $accountNumber;
+
+    /**
+     * @var string
+     */
+    private $apiKey;
 
     /**
      * UniqueId Object
@@ -54,5 +65,59 @@ class Request
         }
 
         return $this->submission;
+    }
+
+    /**
+     * @return string
+     */
+    public function getAppId()
+    {
+        return $this->appId;
+    }
+
+    /**
+     * @param string $appId
+     */
+    public function setAppId($appId)
+    {
+        $this->appId = $appId;
+
+        return $this;
+    }
+
+    /**
+     * @return string
+     */
+    public function getAccountNumber()
+    {
+        return $this->accountNumber;
+    }
+
+    /**
+     * @param string $accountNumber
+     */
+    public function setAccountNumber($accountNumber)
+    {
+        $this->accountNumber = $accountNumber;
+
+        return $this;
+    }
+
+    /**
+     * @return string
+     */
+    public function getApiKey()
+    {
+        return $this->apiKey;
+    }
+
+    /**
+     * @param string $apiKey
+     */
+    public function setApiKey($apiKey)
+    {
+        $this->apiKey = $apiKey;
+
+        return $this;
     }
 }
