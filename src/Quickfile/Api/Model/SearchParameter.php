@@ -1,7 +1,7 @@
 <?php
 namespace Quickfile\Api\Request;
 
-abstract class SearchParameters extends ModelAbstract
+abstract class SearchParameter extends ModelAbstract
 {
     /**
      * @var string
