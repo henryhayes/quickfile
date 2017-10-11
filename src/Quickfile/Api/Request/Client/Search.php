@@ -1,7 +1,9 @@
 <?php
 namespace Quickfile\Api\Request\Client;
 
-class Search extends SearchParameters
+use Quickfile\Api\Request\RequestInterface;
+
+class Search extends SearchParameters implements RequestInterface
 {
     /**
      * @var bool

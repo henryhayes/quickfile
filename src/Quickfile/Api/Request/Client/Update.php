@@ -1,7 +1,9 @@
 <?php
 namespace Quickfile\Api\Request\Client;
 
-class Update
+use Quickfile\Api\Request\RequestInterface;
+
+class Update implements RequestInterface
 {
     //
 }

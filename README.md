@@ -9,16 +9,14 @@ use Quickfile\Api\Request;
 use Quickfile\Api\Request\Client\Create as ClientCreate;
 use Quickfile\Api\Model\Client;
 
-
 $client = new Client();
 $client->setCompany('Client Name');
 
 $request = new Request();
 $request->setAppId('xxx')
-        ->setAccountNumber('123456789')
-        ->setApiKey('AAA3321-12BH-A22');
+    ->setAccountNumber('123456789')
+    ->setApiKey('AAA3321-12BH-A22');
 
-$clientModel = new Client();
 $clientCreate = new ClientCreate();
 $clientCreate->setModel($client);
 $request->setRequestType($clientCreate);

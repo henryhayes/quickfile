@@ -1,7 +1,9 @@
 <?php
 namespace Quickfile\Api\Request\Client;
 
-class Create
+use Quickfile\Api\Request\RequestInterface;
+
+class Create implements RequestInterface
 {
     //
 }

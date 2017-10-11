@@ -32,6 +32,13 @@ class Request
     private $submission     = null;
 
     /**
+     * Contains the current request object.
+     *
+     * @var RequestInterface
+     */
+    private $request;
+
+    /**
      * Constructor
      */
     public function __construct()
@@ -80,6 +87,8 @@ class Request
 
     /**
      * @param string $appId
+     *
+     * @return Request
      */
     public function setAppId($appId)
     {
@@ -98,6 +107,8 @@ class Request
 
     /**
      * @param string $accountNumber
+     *
+     * @return Request
      */
     public function setAccountNumber($accountNumber)
     {
@@ -116,10 +127,32 @@ class Request
 
     /**
      * @param string $apiKey
+     *
+     * @return Request
      */
     public function setApiKey($apiKey)
     {
         $this->apiKey = $apiKey;
+
+        return $this;
+    }
+
+    /**
+     * @return RequestInterface
+     */
+    public function getRequest()
+    {
+        return $this->request;
+    }
+
+    /**
+     * @param RequestInterface $request
+     *
+     * @return Request
+     */
+    public function setRequest(RequestInterface $request)
+    {
+        $this->request = $request;
 
         return $this;
     }

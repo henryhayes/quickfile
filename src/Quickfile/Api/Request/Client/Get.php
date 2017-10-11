@@ -1,7 +1,9 @@
 <?php
 namespace Quickfile\Api\Request\Client;
 
-class Get
+use Quickfile\Api\Request\RequestInterface;
+
+class Get implements RequestInterface
 {
     private $clientId;
 
